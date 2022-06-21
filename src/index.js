@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import Hooks from "./Hooks"
-import Classes from "./Classes";
+import HookEffect from "./HookEffect";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-        <Classes />
-        <Hooks />
+        <HookEffect />
     </div>
 );
