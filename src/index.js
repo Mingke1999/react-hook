@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import SideEfect from "./SideEfect";
+import Mouse from "./Mouse";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <SideEfect/>
+   <Mouse/>
   </div>
 );
