@@ -7,13 +7,16 @@ export default class Classes extends Component {
         message:"using classes (state)"
     }
   }
-  
-  
-  
-    render() {
+  clickHandle = () =>{
+    this.setState({
+      message:"new message"
+    })
+  }
+  render() { 
     return (
       <div>
         <h1>{this.state.message}</h1>
+        <button onClick={this.clickHandle}>change messsage</button>
       </div>
     )
   }
